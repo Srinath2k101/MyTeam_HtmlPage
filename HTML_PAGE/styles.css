@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Mary Ann;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 15px;
+}
+
+/* Link styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* Example class for buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F06C00;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+.btn:hover {
+    /*background-color: #005bb5;*/
+}
+
+/*Header*/
+header {
+	background-color: #00f7f7;
+	display: flex;
+}
